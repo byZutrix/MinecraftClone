@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_atomic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_audio.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_bits.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_blendmode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_clipboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_copying.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_cpuinfo.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_egl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_endian.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_error.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_events.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_filesystem.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_gamecontroller.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_gesture.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_guid.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_haptic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_hidapi.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_hints.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_joystick.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_keyboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_keycode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_loadso.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_locale.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_main.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_messagebox.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_metal.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_misc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_mouse.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_mutex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_name.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengl_glext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengles.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengles2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengles2_gl2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengles2_gl2ext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengles2_gl2platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_opengles2_khrplatform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_pixels.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_power.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_quit.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_rect.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_render.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_rwops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_scancode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_sensor.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_shape.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_stdinc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_surface.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_system.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_syswm.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_common.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_compare.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_crc32.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_font.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_fuzzer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_harness.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_images.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_md5.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_memory.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_test_random.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_thread.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_timer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_touch.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_types.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_version.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_video.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\SDL_vulkan.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\begin_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\381044f41f40261b2225c3c5765a1c1b\close_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\build\CMakeFiles\1a52990c13d75b280d963af276ed5fd5\sdl_headers_copy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\!CppGame\libs\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\!CppGame\build\libs\SDL\CMakeFiles\sdl_headers_copy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{39A988CC-B5AF-3633-B358-CB591A4B80C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

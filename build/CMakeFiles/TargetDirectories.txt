@@ -1,0 +1,10 @@
+D:/!CppGame/build/CMakeFiles/build_shaders.dir
+D:/!CppGame/build/CMakeFiles/vulkan_game.dir
+D:/!CppGame/build/CMakeFiles/ALL_BUILD.dir
+D:/!CppGame/build/CMakeFiles/ZERO_CHECK.dir
+D:/!CppGame/build/libs/SDL/CMakeFiles/sdl_headers_copy.dir
+D:/!CppGame/build/libs/SDL/CMakeFiles/SDL2main.dir
+D:/!CppGame/build/libs/SDL/CMakeFiles/SDL2.dir
+D:/!CppGame/build/libs/SDL/CMakeFiles/SDL2-static.dir
+D:/!CppGame/build/libs/SDL/CMakeFiles/uninstall.dir
+D:/!CppGame/build/libs/SDL/CMakeFiles/ALL_BUILD.dir

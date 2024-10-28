@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{93C16ADC-DD2C-3015-9DF9-8201BA4DE9E1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\!CppGame\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/!CppGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCXXCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeRCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\!CppGame\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/!CppGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCXXCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeRCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\!CppGame\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/!CppGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCXXCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeRCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\!CppGame\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/!CppGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeCXXCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeRCCompiler.cmake;D:\!CppGame\build\CMakeFiles\3.30.4\CMakeSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindVulkan.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\!CppGame\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\!CppGame\build\ZERO_CHECK.vcxproj">
+      <Project>{0D4C2D82-0594-366E-A9D5-26203571128B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\!CppGame\build\libs\SDL\SDL2.vcxproj">
+      <Project>{555C3900-F729-38A5-B9C1-C5A118546F65}</Project>
+      <Name>SDL2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\!CppGame\build\libs\SDL\SDL2-static.vcxproj">
+      <Project>{9BB95F52-FF5E-34C8-958A-6FCEDE3616EE}</Project>
+      <Name>SDL2-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\!CppGame\build\libs\SDL\SDL2main.vcxproj">
+      <Project>{13BEF3C9-6E92-37B4-BF1B-3EC707AA74EE}</Project>
+      <Name>SDL2main</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\!CppGame\build\build_shaders.vcxproj">
+      <Project>{C981F5D5-B0F2-3534-A675-E1C494047EDC}</Project>
+      <Name>build_shaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\!CppGame\build\vulkan_game.vcxproj">
+      <Project>{D49EAFAB-CE4A-3B69-92DB-6E80300C1B66}</Project>
+      <Name>vulkan_game</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13BEF3C9-6E92-37B4-BF1B-3EC707AA74EE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SDL2main</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\!CppGame\build\libs\SDL\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SDL2main.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SDL2maind</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\!CppGame\build\libs\SDL\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SDL2main.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SDL2main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\!CppGame\build\libs\SDL\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SDL2main.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SDL2main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\!CppGame\build\libs\SDL\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SDL2main.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SDL2main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-debug\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-debug\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-debug\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-release\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-release\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-release\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-minsizerel\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-minsizerel\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-minsizerel\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-relwithdebinfo\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=30;SDL_BUILD_MICRO_VERSION=8;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-relwithdebinfo\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\!CppGame\build\libs\SDL\include-config-relwithdebinfo\SDL2;D:\!CppGame\build\libs\SDL\include\SDL2;D:\!CppGame\build\libs\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\!CppGame\libs\SDL\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/!CppGame/libs/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/libs/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\!CppGame\build\libs\SDL\SDL_config.h.intermediate;D:\!CppGame\libs\SDL\SDL2.spec.in;D:\!CppGame\libs\SDL\cmake\CheckCPUArchitecture.cmake;D:\!CppGame\libs\SDL\cmake\macros.cmake;D:\!CppGame\libs\SDL\cmake\sdlchecks.cmake;D:\!CppGame\libs\SDL\cmake\sdlfind.cmake;D:\!CppGame\libs\SDL\cmake\sdlplatform.cmake;D:\!CppGame\libs\SDL\cmake_uninstall.cmake.in;D:\!CppGame\libs\SDL\include\SDL_config.h.cmake;D:\!CppGame\libs\SDL\include\SDL_revision.h.cmake;D:\!CppGame\libs\SDL\sdl2-config.in;D:\!CppGame\libs\SDL\sdl2.pc.in;D:\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceRuns.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\FindGit.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\!CppGame\build\libs\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/!CppGame/libs/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/libs/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\!CppGame\build\libs\SDL\SDL_config.h.intermediate;D:\!CppGame\libs\SDL\SDL2.spec.in;D:\!CppGame\libs\SDL\cmake\CheckCPUArchitecture.cmake;D:\!CppGame\libs\SDL\cmake\macros.cmake;D:\!CppGame\libs\SDL\cmake\sdlchecks.cmake;D:\!CppGame\libs\SDL\cmake\sdlfind.cmake;D:\!CppGame\libs\SDL\cmake\sdlplatform.cmake;D:\!CppGame\libs\SDL\cmake_uninstall.cmake.in;D:\!CppGame\libs\SDL\include\SDL_config.h.cmake;D:\!CppGame\libs\SDL\include\SDL_revision.h.cmake;D:\!CppGame\libs\SDL\sdl2-config.in;D:\!CppGame\libs\SDL\sdl2.pc.in;D:\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceRuns.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\FindGit.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\!CppGame\build\libs\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/!CppGame/libs/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/libs/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\!CppGame\build\libs\SDL\SDL_config.h.intermediate;D:\!CppGame\libs\SDL\SDL2.spec.in;D:\!CppGame\libs\SDL\cmake\CheckCPUArchitecture.cmake;D:\!CppGame\libs\SDL\cmake\macros.cmake;D:\!CppGame\libs\SDL\cmake\sdlchecks.cmake;D:\!CppGame\libs\SDL\cmake\sdlfind.cmake;D:\!CppGame\libs\SDL\cmake\sdlplatform.cmake;D:\!CppGame\libs\SDL\cmake_uninstall.cmake.in;D:\!CppGame\libs\SDL\include\SDL_config.h.cmake;D:\!CppGame\libs\SDL\include\SDL_revision.h.cmake;D:\!CppGame\libs\SDL\sdl2-config.in;D:\!CppGame\libs\SDL\sdl2.pc.in;D:\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceRuns.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\FindGit.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\!CppGame\build\libs\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/!CppGame/libs/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SD:/!CppGame -BD:/!CppGame/build --check-stamp-file D:/!CppGame/build/libs/SDL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\!CppGame\build\libs\SDL\SDL_config.h.intermediate;D:\!CppGame\libs\SDL\SDL2.spec.in;D:\!CppGame\libs\SDL\cmake\CheckCPUArchitecture.cmake;D:\!CppGame\libs\SDL\cmake\macros.cmake;D:\!CppGame\libs\SDL\cmake\sdlchecks.cmake;D:\!CppGame\libs\SDL\cmake\sdlfind.cmake;D:\!CppGame\libs\SDL\cmake\sdlplatform.cmake;D:\!CppGame\libs\SDL\cmake_uninstall.cmake.in;D:\!CppGame\libs\SDL\include\SDL_config.h.cmake;D:\!CppGame\libs\SDL\include\SDL_revision.h.cmake;D:\!CppGame\libs\SDL\sdl2-config.in;D:\!CppGame\libs\SDL\sdl2.pc.in;D:\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\CMake\share\cmake-3.30\Modules\CMakePushCheckState.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCSourceRuns.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.30\Modules\CheckIncludeFiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLanguage.cmake;D:\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;D:\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.30\Modules\FindGit.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\CMake\share\cmake-3.30\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\!CppGame\build\libs\SDL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\!CppGame\libs\SDL\src\main\windows\SDL_windows_main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\!CppGame\build\ZERO_CHECK.vcxproj">
+      <Project>{0D4C2D82-0594-366E-A9D5-26203571128B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\!CppGame\build\libs\SDL\sdl_headers_copy.vcxproj">
+      <Project>{D6AC321C-3A39-3061-B1AB-B0E55D11D1A8}</Project>
+      <Name>sdl_headers_copy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
